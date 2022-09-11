@@ -22,5 +22,5 @@ document
   .addEventListener("click", () => onClickPlusAge());
 
 document
-  .querySelector(".js-age-plus-button")
+  .querySelector(".js-age-minus-button")
   .addEventListener("click", () => onClickMinusAge());
