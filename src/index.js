@@ -9,5 +9,4 @@
 
   document.querySelector(".js-name").textContent = user.name;
   document.querySelector(".js-age").textContent = user.age;
-
 }

@@ -24,7 +24,14 @@
   .addEventListener("click", () => onClickMinusAge());
   }
 
-  const ageCalculation = (age,ope,value=1) => {
+  /**
+   * 引数opeで指定された四則演算を行い、その結果を返す
+   * @param {string} age - 年齢 
+   * @param {string} ope - 演算子
+   * @param {number} value - 加算/減算する値 
+   * @returns {number} age と valueの計算結果を返す
+   */
+  const ageCalculation = (age,ope=null,value=1) => {
     if(ope === 'plus') return Number(age) + value;
     if(ope === 'minus') return Number(age) - value;
   }
