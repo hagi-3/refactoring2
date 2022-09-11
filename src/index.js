@@ -14,6 +14,7 @@ const onClickPlusAge = () => {
 
 const onClickMinusAge = () => {
   const age = document.querySelector(".js-age").textContent;
+  if (age <= 0) return;
   document.querySelector(".js-age").textContent = Number(age) - 1;
 };
 
