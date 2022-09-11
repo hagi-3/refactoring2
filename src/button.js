@@ -1,6 +1,6 @@
 {
   /**
-   * ageをplus1する
+   * plusボタン押下時の処理
    */
   const onClickPlusAge = () => {
     const age = ageCalculation(document.querySelector(".js-age").textContent,'plus');
@@ -8,7 +8,7 @@
   };
 
   /**
-   * ageをminus1する
+   * minusボタン押下時の処理
    */
   const onClickMinusAge = () => {
     const age = ageCalculation(document.querySelector(".js-age").textContent,'minus');
